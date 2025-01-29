@@ -1,0 +1,58 @@
+#g1 {
+    height: 520px;
+    width: 750px;
+    margin:auto;
+    border: 1px solid black;
+  }
+  
+  #g2 {
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(255, 252, 251); 
+    background-image: url('https://i.pinimg.com/736x/fe/e4/ac/fee4ac4a44ca6cd75b32bf4874cdbac0.jpg');
+    background-position: center; 
+    background-size: cover; 
+    aspect-ratio: 1;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    33% {aspect-ratio: 0.5;}
+    66% {aspect-ratio: 2;}
+  }
+  
+  #original {
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    aspect-ratio: 1.5;
+    border: 1px dashed grey;
+    background-color: lightgrey;
+    background-image: url('https://i.pinimg.com/736x/17/e8/e0/17e8e08133c5df71ab854adab59bf1d7.jpg');
+    background-size: cover;
+    background-position: center; 
+    clip-path: inset(0px 0px 0px 40px);
+    overflow: hidden;
+  }
+  
+  .lov {
+    width: 600px;
+    height: 105px;
+    padding: 15px;
+    background-color: rgb(165, 195, 225);
+    box-shadow: 10px 10px rgb(14, 103, 133);
+  }
+
+  
+  div.polaroid {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 10px;
+    text-align: center;
+    margin-left:78%;
+  }
+  
+  div.container {
+    padding: 10px;
+  }
