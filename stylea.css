@@ -1,0 +1,25 @@
+body{
+    margin:0;
+  }
+  header{
+    justify-content: space-between;
+    background-color: #3f355d;
+    display: flex;
+  }
+  nav a {
+      float: left;
+      text-align: center;
+      padding: 25px 10px;
+      color: white;
+      text-decoration: none;
+  }
+  nav a:hover {
+      background-color: crimson;
+  }
+  img{
+    border-radius: 1px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    height:55px;
+    width:70px;
+  }
